@@ -27,21 +27,33 @@ def load_css():
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 def load_data():
-    parquet_directory = "./data/recipes.parquet"
+    parquet_file = "./data/recipes.parquet"
 
-    if not parquet_directory:
-        st.error("No Parquet files found in the specified directory.")
-        st.stop()
+    # Check if the file exists, and if not, run the download script
+    if not os.path.exists(parquet_file):
+        os.system("python data/download_recipes.py")
+
+        # Verify if the file was downloaded successfully
+        if not os.path.exists(parquet_file):
+            st.error("Failed to download recipes.parquet. Please ensure the file exists or the download script works correctly.")
+            st.stop()
+    else:
+        print("recipes.parquet already exists.")
 
     try:
-        df = pd.read_parquet(parquet_directory)
+        # Load the Parquet file
+        df = pd.read_parquet(parquet_file)
         df['id'] = df.index.astype(str)
-        
+
         # Process ingredients column with improved error handling
         df["ingredients"] = df["ingredients"].apply(safe_eval)
         df["ingredients"] = df["ingredients"].apply(clean_ingredients)
-        
+
         return df
+    except Exception as e:
+        st.error(f"Error reading parquet file: {e}")
+        return None
+        
     except Exception as e:
         st.error(f"Error reading parquet files: {e}")
         return None
