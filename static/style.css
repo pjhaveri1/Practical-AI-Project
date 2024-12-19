@@ -1,0 +1,44 @@
+/* Hero section */
+.hero-container {
+    background: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Ingredient category headers */
+.category-header {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.category-header.vegetables { background: #e8f5e9; color: #2e7d32; }
+.category-header.proteins { background: #fff3e0; color: #ef6c00; }
+.category-header.grains { background: #e3f2fd; color: #1565c0; }
+.category-header.dairy { background: #fff3e0; color: #ef6c00; }
+
+/* Ingredient checkbox styling */
+.ingredient-checkbox {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin: 0.2rem 0;
+    transition: all 0.3s;
+}
+
+.ingredient-checkbox:hover {
+    filter: brightness(0.95);
+    cursor: pointer;
+}
+
+/* Favorites card */
+.favorite-recipe-card {
+    background: #fff8f8;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border-left: 4px solid #ff4b4b;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #333;
+} 
