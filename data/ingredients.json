@@ -1,0 +1,53 @@
+{
+    "vegetables": [
+        ["🌶️ Pepper", "pepper", "#E8F5E9", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🧅 Onion", "onion", "#C8E6C9", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🧄 Garlic", "garlic", "#A5D6A7", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🍅 Tomatoes", "tomatoes", "#81C784", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥕 Carrot", "carrot", "#66BB6A", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥔 Potatoes", "potatoes", "#E8F5E9", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥬 Spinach", "spinach", "#C8E6C9", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥦 Broccoli", "broccoli", "#A5D6A7", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥬 Cabbage", "cabbage", "#81C784", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥒 Zucchini", "zucchini", "#66BB6A", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}]
+    ],
+    "proteins": [
+        ["🍗 Chicken", "chicken", "#FFE0B2", {"vegetarian": false, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🧀 Cheese", "cheese", "#FFCC80", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🥩 Beef", "beef", "#FFB74D", {"vegetarian": false, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🥚 Eggs", "eggs", "#FFA726", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🥓 Pork", "pork", "#FF9800", {"vegetarian": false, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🦐 Shrimp", "shrimp", "#FFB74D", {"vegetarian": false, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🐟 Fish", "fish", "#FFCC80", {"vegetarian": false, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🥩 Meat", "meat", "#FFE0B2", {"vegetarian": false, "vegan": false, "gluten_free": true, "dairy_free": true}],
+        ["🧈 Butter", "butter", "#FF9800", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🫘 Tofu", "tofu", "#FFE0B2", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🫘 Tempeh", "tempeh", "#FFCC80", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🫘 Seitan", "seitan", "#FFB74D", {"vegetarian": true, "vegan": true, "gluten_free": false, "dairy_free": true}]
+    ],
+    "grains": [
+        ["🌾 Flour", "flour", "#BBDEFB", {"vegetarian": true, "vegan": true, "gluten_free": false, "dairy_free": true}],
+        ["🍚 Rice", "rice", "#90CAF9", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🌽 Corn", "corn", "#64B5F6", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🍝 Pasta", "pasta", "#42A5F5", {"vegetarian": true, "vegan": true, "gluten_free": false, "dairy_free": true}],
+        ["🌾 Wheat", "wheat", "#BBDEFB", {"vegetarian": true, "vegan": true, "gluten_free": false, "dairy_free": true}],
+        ["🍞 Bread", "bread", "#90CAF9", {"vegetarian": true, "vegan": true, "gluten_free": false, "dairy_free": true}],
+        ["🫘 Soy", "soy", "#64B5F6", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🍜 Noodles", "noodles", "#42A5F5", {"vegetarian": true, "vegan": true, "gluten_free": false, "dairy_free": true}],
+        ["🥣 Oats", "oats", "#BBDEFB", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🌾 Quinoa", "quinoa", "#90CAF9", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}]
+    ],
+    "dairy": [
+        ["🧀 Cheese", "cheese", "#FFE0B2", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🧈 Butter", "butter", "#FFCC80", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🥛 Milk", "milk", "#FFB74D", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🥛 Cream", "cream", "#FFA726", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🧀 Cheddar", "cheddar", "#FF9800", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🧀 Mozzarella", "mozzarella", "#FFE0B2", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🥛 Yogurt", "yogurt", "#FFCC80", {"vegetarian": true, "vegan": false, "gluten_free": true, "dairy_free": false}],
+        ["🥛 Almond Milk", "almond milk", "#FFB74D", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥛 Soy Milk", "soy milk", "#FFA726", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🥛 Oat Milk", "oat milk", "#FF9800", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}],
+        ["🧀 Vegan Cheese", "vegan cheese", "#FFE0B2", {"vegetarian": true, "vegan": true, "gluten_free": true, "dairy_free": true}]
+    ]
+}
